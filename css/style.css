@@ -1,0 +1,25 @@
+.navbar {
+	margin-bottom: 0;
+}
+.main-jumbotron {
+	background-color: #337ab7;
+	color: #FFF;
+}
+.skill {
+	text-align: center;
+}
+.footer {
+	min-height:  355px;
+	background-color: #333;
+	margin-top: 50px;
+	color: #FFF;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.footer ul li a {
+	color: #FFF;
+}
+.footer ul li a i {
+	margin-right: 5px;
+}
