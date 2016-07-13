@@ -9,7 +9,7 @@ var load = function (doc, site) {
 
     var xmlhttp = new XMLHttpRequest();
 
-    xmlhttp.open("GET", "/extras/html/navbar.html", true);
+    xmlhttp.open("GET", "https://aaomidi.com/extras/html/navbar.html", true);
 
     xmlhttp.onreadystatechange = function () {
         if (this.readyState !== 4 || this.status !== 200) {
@@ -25,7 +25,7 @@ var load = function (doc, site) {
 
     var xmlhttp = new XMLHttpRequest();
 
-    xmlhttp.open("GET", "/extras/html/footer.html", true);
+    xmlhttp.open("GET", "https://aaomidi.com/extras/html/footer.html", true);
 
     xmlhttp.onreadystatechange = function () {
         if (this.readyState !== 4 || this.status !== 200) {
