@@ -9,6 +9,9 @@ body {
 	background-color: #337ab7;
 	color: #FFF;
 }
+.img-circle{
+    height: 200px;
+}
 .skill {
 	text-align: center;
 }
