@@ -43,11 +43,6 @@ var load = function (doc) {
 
 function setHighlight(site) {
     var id = site.toLowerCase();
-    id = "nav-" + id;
-    var element = document.getElementById(id);
-
-    if (element === null) {
-        //return;
-    }
-    element.addClass("active");
+    id = "#nav-" + id;
+    $(id).addClass("active");
 }
