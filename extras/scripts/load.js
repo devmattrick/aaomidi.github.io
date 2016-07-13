@@ -1,4 +1,4 @@
-var load = function (doc, site) {
+var load = function (doc) {
     'use strict';
 
     if (!window.XMLHttpRequest && 'ActiveXObject' in window) {
@@ -38,7 +38,6 @@ var load = function (doc, site) {
 
     xmlhttp.send();
 
-    setHighlight(site);
     return xmlhttp.responseText;
 };
 
