@@ -37,3 +37,7 @@ $RECYCLE.BIN/
 ## Bower
 node_components/
 bower_components/
+
+## Jekyll
+.sass-cache
+_site
