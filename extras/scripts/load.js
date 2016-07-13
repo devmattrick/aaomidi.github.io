@@ -47,7 +47,7 @@ function setHighlight(site) {
     var element = document.getElementById(id);
 
     if (element === null) {
-        return;
+        //return;
     }
     element.addClass("active");
 }
