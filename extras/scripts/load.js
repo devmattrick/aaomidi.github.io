@@ -38,9 +38,13 @@ var load = function (doc, site) {
 
     xmlhttp.send();
 
+    setHighlight(site);
     return xmlhttp.responseText;
 };
 
 function setHighlight(site) {
-
+    var id = site.toLowerCase();
+    id = "nav-" + id;
+    var element = document.getElementById(id);
+    element.addClass("active");
 }
