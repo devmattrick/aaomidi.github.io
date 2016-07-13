@@ -38,6 +38,7 @@ var load = function (doc) {
 
     xmlhttp.send();
 
+    setHighlight("home");
     return xmlhttp.responseText;
 };
 
