@@ -46,5 +46,10 @@ function setHighlight(site) {
     var id = site.toLowerCase();
     id = "nav-" + id;
     var element = document.getElementById(id);
+
+    if (element === null) {
+        alert(id);
+        return;
+    }
     element.addClass("active");
 }
