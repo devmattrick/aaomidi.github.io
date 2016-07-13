@@ -1,4 +1,4 @@
-var load = function (doc) {
+var load = function (doc, site) {
     'use strict';
 
     if (!window.XMLHttpRequest && 'ActiveXObject' in window) {
@@ -18,6 +18,7 @@ var load = function (doc) {
         }
 
         document.getElementById('navbar').innerHTML = this.responseText;
+        setHighlight(site);
     };
 
     xmlhttp.send();
