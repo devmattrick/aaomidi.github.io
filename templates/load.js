@@ -22,5 +22,21 @@ var load = function (doc) {
 
     xmlhttp.send();
 
+
+    var xmlhttp = new XMLHttpRequest();
+
+    xmlhttp.open("GET", "/templates/footer.html", true);
+
+    xmlhttp.onreadystatechange = function () {
+        if (this.readyState !== 4 || this.status !== 200) {
+            document.getElementById('footer').innerHTML = "<b> Error reading navbar.html </b>";
+            return;
+        }
+
+        document.getElementById('footer').innerHTML = this.responseText;
+    };
+
+    xmlhttp.send();
+
     return xmlhttp.responseText;
 };
