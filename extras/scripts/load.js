@@ -9,7 +9,7 @@ var load = function (doc) {
 
     var xmlhttp = new XMLHttpRequest();
 
-    xmlhttp.open("GET", "/templates/navbar.html", true);
+    xmlhttp.open("GET", "/extras/html/navbar.html", true);
 
     xmlhttp.onreadystatechange = function () {
         if (this.readyState !== 4 || this.status !== 200) {
@@ -25,11 +25,11 @@ var load = function (doc) {
 
     var xmlhttp = new XMLHttpRequest();
 
-    xmlhttp.open("GET", "/templates/footer.html", true);
+    xmlhttp.open("GET", "/extras/html/footer.html", true);
 
     xmlhttp.onreadystatechange = function () {
         if (this.readyState !== 4 || this.status !== 200) {
-            document.getElementById('footer').innerHTML = "<b> Error reading navbar.html </b>";
+            document.getElementById('footer').innerHTML = "<b> Error reading footer.html </b>";
             return;
         }
 
@@ -40,3 +40,7 @@ var load = function (doc) {
 
     return xmlhttp.responseText;
 };
+
+function setHighlight() {
+
+}
