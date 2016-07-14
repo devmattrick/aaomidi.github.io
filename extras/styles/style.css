@@ -4,9 +4,10 @@ body {
 }
 .navbar {
 	margin-bottom: 0;
+    background-color: #689F38;
 }
 .main-jumbotron {
-	background-color: #F3B61F;
+	background-color: #689F38;
 	color: #FFF;
 }
 .img-circle{
@@ -17,7 +18,7 @@ body {
 }
 .footer {
 	min-height:  355px;
-	background-color: #3f51b5;
+	background-color: #689F38;
 	margin-top: 50px;
 	color: #FFF;
 	display: flex;
