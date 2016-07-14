@@ -2,32 +2,39 @@ body {
     padding-top: 50px;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
-.navbar .navbar-inverse{
-	margin-bottom: 0;
+
+.navbar.navbar-inverse {
+    margin-bottom: 0;
     background-color: #689F38;
 }
+
 .main-jumbotron {
-	background-color: #8BC34A;
-	color: #FFF;
+    background-color: #8BC34A;
+    color: #FFF;
 }
-.img-circle{
+
+.img-circle {
     height: 200px;
 }
+
 .skill {
-	text-align: center;
+    text-align: center;
 }
+
 .footer {
-	min-height:  355px;
-	background-color: #689F38;
-	margin-top: 50px;
-	color: #FFF;
-	display: flex;
-	justify-content: center;
-	align-items: center;
+    min-height: 355px;
+    background-color: #689F38;
+    margin-top: 50px;
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
 .footer ul li a {
-	color: #FFF;
+    color: #FFF;
 }
+
 .footer ul li a i {
-	margin-right: 5px;
+    margin-right: 5px;
 }
